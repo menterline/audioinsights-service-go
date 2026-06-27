@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "artist_id",
+      "name": "Dummy Artist",
+      "genres": [
+        "pop",
+        "rock"
+      ],
+      "href": "https://api.spotify.com/v1/artists/artist_id",
+      "images": [
+        {
+          "url": "https://example.com/artist_image.jpg",
+          "height": 640,
+          "width": 640
+        }
+      ],
+      "popularity": 80,
+      "type": "artist",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/artist_id"
+      },
+      "uri": "spotify:artist:artist_id"
+    }
+  ],
+  "total": 1,
+  "limit": 20,
+  "offset": 0,
+  "href": "https://api.spotify.com/v1/me/top/artists",
+  "previous": null,
+  "next": null
+}

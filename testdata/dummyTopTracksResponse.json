@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "track_id",
+      "name": "Dummy Track",
+      "album": {
+        "id": "album_id",
+        "name": "Dummy Album",
+        "images": [
+          {
+            "url": "https://example.com/image.jpg",
+            "height": 640,
+            "width": 640
+          }
+        ],
+        "release_date": "2024-01-01",
+        "total_tracks": 10,
+        "href": "https://api.spotify.com/v1/albums/album_id",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/album_id"
+        },
+        "uri": "spotify:album:album_id"
+      },
+      "artists": [
+        {
+          "id": "artist_id",
+          "name": "Dummy Artist",
+          "genres": [
+            "pop",
+            "rock"
+          ],
+          "href": "https://api.spotify.com/v1/artists/artist_id",
+          "images": [
+            {
+              "url": "https://example.com/image.jpg",
+              "height": 640,
+              "width": 640
+            }
+          ],
+          "popularity": 80,
+          "type": "artist",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/artist_id"
+          },
+          "uri": "spotify:artist:artist_id"
+        }
+      ],
+      "duration_ms": 180000,
+      "explicit": false,
+      "href": "https://api.spotify.com/v1/tracks/track_id",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/track_id"
+      },
+      "popularity": 90,
+      "preview_url": "https://p.scdn.co/mp3-preview/track_preview",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:track_id"
+    }
+  ],
+  "total": 1,
+  "limit": 20,
+  "offset": 0,
+  "href": "https://api.spotify.com/v1/me/top/tracks",
+  "previous": null,
+  "next": null
+}
